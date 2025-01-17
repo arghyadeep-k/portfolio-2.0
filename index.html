@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code&display=swap" rel="stylesheet">
+    <title>Portfolio - Arghyadeep</title>
+    <style>
+        body {
+            background-color: #0c0010;
+            color: #D5EDEA;
+            font-family: 'Fira Code', monospace;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            text-align: center;
+            padding: 20px;
+        }
+        .ascii-art {
+            font-family: monospace;
+            white-space: pre;
+            line-height: 1.25;
+            font-size: 0.75rem;
+            display: inline-block;
+            background: linear-gradient(90deg, crimson, blue);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            animation: gradient-shift 5s infinite;
+        }
+        @keyframes gradient-shift {
+            0% {
+                background-position: 0%;
+            }
+            100% {
+                background-position: 100%;
+            }
+        }
+        nav {
+            text-align: center;
+            margin: 20px 0;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        section {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            margin-top: 20px;
+            border-top: 1px solid white;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="ascii-art">
+ █████╗ ██████╗  ██████╗ ██╗  ██╗██╗   ██╗ █████╗ ██████╗ ███████╗███████╗██████╗     ██╗  ██╗██╗   ██╗███╗   ██╗██████╗ ██╗   ██╗
+██╔══██╗██╔══██╗██╔════╝ ██║  ██║╚██╗ ██╔╝██╔══██╗██╔══██╗██╔════╝██╔════╝██╔══██╗    ██║ ██╔╝██║   ██║████╗  ██║██╔══██╗██║   ██║
+███████║██████╔╝██║  ███╗███████║ ╚████╔╝ ███████║██║  ██║█████╗  █████╗  ██████╔╝    █████╔╝ ██║   ██║██╔██╗ ██║██║  ██║██║   ██║
+██╔══██║██╔══██╗██║   ██║██╔══██║  ╚██╔╝  ██╔══██║██║  ██║██╔══╝  ██╔══╝  ██╔═══╝     ██╔═██╗ ██║   ██║██║╚██╗██║██║  ██║██║   ██║
+██║  ██║██║  ██║╚██████╔╝██║  ██║   ██║   ██║  ██║██████╔╝███████╗███████╗██║         ██║  ██╗╚██████╔╝██║ ╚████║██████╔╝╚██████╔╝
+╚═╝  ╚═╝╚═╝  ╚═╝ ╚═════╝ ╚═╝  ╚═╝   ╚═╝   ╚═╝  ╚═╝╚═════╝ ╚══════╝╚══════╝╚═╝         ╚═╝  ╚═╝ ╚═════╝ ╚═╝  ╚═══╝╚═════╝  ╚═════╝ 
+      </div>
+        <p>Site Reliability Engineer ⸽ Opensource Enthusiast & Contributor ⸽ Bibliophile</p>
+    </header>
+
+    <nav>
+        <a class="link" href="#about">About</a>
+      <a>⟐</a>
+        <a href="#projects">Projects</a>
+      <a>⟐</a>
+      <a href="#experience">Experience</a>
+      <a>⟐</a>
+      <a href="#skills">Skills</a>
+      <a>⟐</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <section id="about">
+        <h2>ABOUT ME</h2>
+        <p>Hello!👋 I am a developer turned DevOps engineer. <br/>Taming the tech beast by developing automation solutions at a finance company during the day. Fiddling with opensource software at night. When the digital dust settles, you'll find me escaping into the magical worlds of fiction.</p>
+    </section>
+
+    <section id="projects">
+        <h2>PROJECTS</h2>
+        <ul style="list-style-type: '✨ ';">
+            <li>Google Sheets Logger<br/>A simple Node.js module for logging data in Google Sheets</li><br/>
+            <li>Async-Get-File<br/>A wrapper around download-file package to make it return a promise</li><br/>
+            <li>Vanes<br/>A NPM package which helps you to format your strings easily with placeholders. Comes in handy when you are importing the strings from another module</li><br/>
+          <li>OpenCV - Face Crop<br/>NPM package that auto-detects faces in a picture and crops them out</li><br/>
+          <li>Caddified-Jenkins-Docker<br/>Docker image of Jenkins with Caddy pre-installed so as to serve it over HTTPS right from the start.</li><br/>
+          <li>Caddified-Code-Server-Docker<br/>Docker image of Code-Server (Remote VSCode) with Caddy pre-installed so as to serve it over HTTPS right from the start.</li><br/>          
+        </ul>
+    </section>
+  
+    <section id="experience">
+      <h2>EXPERIENCE</h2>
+      <ul style="list-style-type: '✨ ';">
+        <li>The OCC<br/>Associate Principal - SRE » [Dec 23 - Present]</li>
+        <li>Hexaware Technologies<br/> Sr. DevOps Engineer » [Jul 19 - Dec 23]</li>
+        <li>Cognizant Technology Solutions<br/>Associate - Projects » [Aug 16 - Jul 19]</li>
+      </ul>
+      </section>
+
+    <section id="contact">
+        <h2>CONTACT</h2>
+        <ul style="list-style-type: '✨ ';">
+          <li>Email: <a href="mailto:contact@arghyadeep.in">contact@arghyadeep.in</a></li>
+          <li>LinkedIn: <a href="https://www.linkedin.com/in/arghyadeep-kundu/" target="_blank">arghyadeep-kundu</a></li>
+          <li>GitHub: <a href="https://github.com/arghyadeep-k" target="_blank">arghyadeep-k</a></li>
+          <li>Codeberg: <a href="https://codeberg.org/arghyadeep" target="_blank">arghyadeep</a></li>
+      </ul>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Arghyadeep Kundu. All rights reserved.</p>
+    </footer>
+</body>
+</html>
